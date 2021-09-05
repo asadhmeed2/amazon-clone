@@ -1,0 +1,35 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+}
+.nav-1 {
+  height: 60px;
+  width: 100%;
+  background: #131921;
+}
+.nav-1 ul {
+  display: flex;
+}
+
+
+.nav-1 ul li .logo-inner {
+  width: 115px;
+  height: 50px;
+  margin-top: 5px;
+  margin-left: 13px;
+  border: #131921 solid 1px;
+  background: url("https://images-na.ssl-images-amazon.com/images/G/01/gno/sprites/nav-sprite-global-1x-hm-dsk-reorg._CB405937547_.png")
+    -4px -40px;
+}
+.nav-1 ul li .logo-inner:hover {
+  border-color: white;
+}
+
+/* background: url("https://images-na.ssl-images-amazon.com/images/G/01/gno/sprites/nav-sprite-global-1x-hm-dsk-reorg._CB405937547_.png") 0px
+    80px;
+} */
