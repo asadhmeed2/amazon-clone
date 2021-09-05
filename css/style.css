@@ -16,20 +16,51 @@ ul {
   display: flex;
 }
 
-
 .nav-1 ul li .logo-inner {
   width: 115px;
   height: 50px;
   margin-top: 5px;
   margin-left: 13px;
   border: #131921 solid 1px;
-  background: url("https://images-na.ssl-images-amazon.com/images/G/01/gno/sprites/nav-sprite-global-1x-hm-dsk-reorg._CB405937547_.png")
-    -4px -40px;
+  background: url("https://images-na.ssl-images-amazon.com/images/G/01/gno/sprites/nav-sprite-global-1x-hm-dsk-reorg._CB405937547_.png") -4px -40px;
 }
 .nav-1 ul li .logo-inner:hover {
   border-color: white;
 }
+.deliver-to {
+  width: 90.64px;
+  height: 60;
 
-/* background: url("https://images-na.ssl-images-amazon.com/images/G/01/gno/sprites/nav-sprite-global-1x-hm-dsk-reorg._CB405937547_.png") 0px
-    80px;
-} */
+  color: #d6d6d6;
+}
+.deliver-to-content {
+  width: 88.64px;
+  height: 50px;
+  margin: 5px 2px 5px 0px;
+  padding: 0px 9px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  text-decoration: none;
+  color: white;
+}
+.location {
+  width: 15px;
+  height: 18px;
+  grid-area: 1 / 1 / 2 / 2;
+  margin-top: 21px;
+  background: url("https://images-na.ssl-images-amazon.com/images/G/01/gno/sprites/nav-sprite-global-1x-hm-dsk-reorg._CB405937547_.png") -70px
+    71px;
+}
+
+.d-to-text {
+  margin-top: 10px;
+  grid-area: 1 / 2 / 2 / 5;
+  
+}
+.nav-1 .contry {
+  font-weight: bold;
+  font-size: 1.1rem;
+}
