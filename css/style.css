@@ -815,28 +815,60 @@ ul {
 .share {
   display: flex;
   width: 100%;
-  border: black 1px solid;
+  justify-content: center;
+  
   background: transparent;
+}
+.share-link1{
+font-family: var(--font-fm-lt); 
+font-weight: 400;
+font-size: 13px;
+
+color: #317190;
+
+
+
+}
+.share-link1:hover{
+  color:#c7511f ;
+  text-decoration: underline;
 }
 .email {
   width: 18px;
   height: 17px;
   background: url("https://images-na.ssl-images-amazon.com/images/G/01/x-locale/communities/social/snwicons_v2._CB485949224_.png")
     no-repeat 0px 0px;
+    
 }
+.email-link1{
+  margin-left: 8px;
+}
+
 .facebook {
   width: 17px;
   height: 17px;
   background: url("https://images-na.ssl-images-amazon.com/images/G/01/x-locale/communities/social/snwicons_v2._CB485949224_.png") -17px -1px;
   margin-left: 2px;
+  
+}
+.facebook-link1{
+  margin-left: 8px;
 }
 .twitter {
-  width: 18px;
+  width: 15px;
   height: 17px;
-  background: url(../) -192px -106px;
+  background: url("https://images-na.ssl-images-amazon.com/images/G/01/x-locale/communities/social/snwicons_v2._CB485949224_.png") -35px 1px;
+  
+}
+.twitter-link1{
+  margin-left: 8px;
 }
 .pinterest {
   width: 17px;
   height: 17px;
-  background: url(../img/social-madia.png);
+  background: url("https://images-na.ssl-images-amazon.com/images/G/01/x-locale/communities/social/snwicons_v2._CB485949224_.png") -49px 0;
+ 
+}
+.pinterest-link1{
+  margin-left: 8px;
 }
