@@ -544,10 +544,13 @@ ul {
   grid-area: 1 / 2 / 13 / 12;
 }
 
-.pec-1:hover ~ .main-image {
+
+
+.pec-1 ~ .main-image {
   background: url("https://m.media-amazon.com/images/I/71KYDouQCEL._AC_SX569_.jpg")
     no-repeat center center/cover;
   background-size: 350px 545px;
+  
 }
 .pec-2:hover ~ .main-image {
   background: url("https://m.media-amazon.com/images/I/71ms7OG3ZTL._AC_SX569_.jpg")
@@ -807,6 +810,9 @@ ul {
   color: #922501;
 }
 /* Buy or Add to Cart */
+.buy-add-to-cart-container a{
+  color: var(--description-link-color);
+}
 .buy-add-to-cart-container {
   width: 244px;
   grid-area: 1 / 11 / 13 / 12;
@@ -871,4 +877,46 @@ color: #317190;
 }
 .pinterest-link1{
   margin-left: 8px;
+}
+.purchese-description{
+  width: 242px;
+  height: 629.91px;
+  padding: 14px 18px;
+  font-size: 14px;
+  font-family: var(--font-fm-lt);
+  font-weight: 700;
+  
+ 
+
+}
+.grayesh-color{
+   color: #565959;
+}
+
+.bolded{
+  color: black;
+}
+
+.descount-price-num-purchese{
+  margin-bottom: 17px;
+}
+.first-p{
+ margin-bottom: 22px;
+ 
+}
+.second-p{
+  margin-bottom: 24px;
+}
+.location-2{
+  display:flex;
+}
+
+.location-2-icone{
+  width: 16px;
+  height: 14px;
+  background: url("https://m.media-amazon.com/images/S/sash/kIT-Lj9i1Bch8yi.png")
+    no-repeat ;
+}
+.location-2-text{
+
 }
