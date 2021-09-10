@@ -25,6 +25,7 @@
 a {
   text-decoration: none;
 }
+
 ul {
   list-style: none;
 }
@@ -467,7 +468,7 @@ ul {
 .prodect-info-container {
   width: 96vw;
   display: grid;
-  grid-template-columns: repeat(4, 1fr) 1fr 1fr repeat(3, 1fr) 0fr 1.5fr;
+  grid-template-columns: repeat(4, 1fr) 1fr 1fr 1fr repeat(2, 1fr) 0fr 1.5fr;
   grid-template-rows: repeat(12, 1fr);
   grid-column-gap: 0px;
   grid-row-gap: 0px;
@@ -478,7 +479,7 @@ ul {
   display: grid;
   grid-template-columns: 6fr 3fr;
   grid-template-rows: 1fr;
-  grid-column-gap: 10px;
+  grid-column-gap: 0px;
   grid-row-gap: 0px;
   grid-area: 1 / 1 / 11 / 10;
 }
@@ -544,13 +545,10 @@ ul {
   grid-area: 1 / 2 / 13 / 12;
 }
 
-
-
 .pec-1 ~ .main-image {
   background: url("https://m.media-amazon.com/images/I/71KYDouQCEL._AC_SX569_.jpg")
     no-repeat center center/cover;
   background-size: 350px 545px;
-  
 }
 .pec-2:hover ~ .main-image {
   background: url("https://m.media-amazon.com/images/I/71ms7OG3ZTL._AC_SX569_.jpg")
@@ -591,13 +589,19 @@ ul {
 /* description */
 .description-container {
   grid-area: 1 / 2 / 2 / 3;
+  margin-right: 26px;
+  width: 431px;
+  
 }
 .description-container a {
   color: var(--description-link-color);
 }
 .description-container a:hover {
   text-decoration: underline;
+
+  color: #c7511f;
 }
+
 .description-h1 {
   margin-top: 0;
   width: 450px;
@@ -810,8 +814,13 @@ ul {
   color: #922501;
 }
 /* Buy or Add to Cart */
-.buy-add-to-cart-container a{
+.buy-add-to-cart-container a {
   color: var(--description-link-color);
+}
+.buy-add-to-cart-container a:hover {
+  text-decoration: underline;
+
+  color: #c7511f;
 }
 .buy-add-to-cart-container {
   width: 244px;
@@ -822,21 +831,18 @@ ul {
   display: flex;
   width: 100%;
   justify-content: center;
-  
+
   background: transparent;
 }
-.share-link1{
-font-family: var(--font-fm-lt); 
-font-weight: 400;
-font-size: 13px;
+.share-link1 {
+  font-family: var(--font-fm-lt);
+  font-weight: 400;
+  font-size: 13px;
 
-color: #317190;
-
-
-
+  color: #317190;
 }
-.share-link1:hover{
-  color:#c7511f ;
+
+.share-link1:hover {
   text-decoration: underline;
 }
 .email {
@@ -844,9 +850,8 @@ color: #317190;
   height: 17px;
   background: url("https://images-na.ssl-images-amazon.com/images/G/01/x-locale/communities/social/snwicons_v2._CB485949224_.png")
     no-repeat 0px 0px;
-    
 }
-.email-link1{
+.email-link1 {
   margin-left: 8px;
 }
 
@@ -855,68 +860,169 @@ color: #317190;
   height: 17px;
   background: url("https://images-na.ssl-images-amazon.com/images/G/01/x-locale/communities/social/snwicons_v2._CB485949224_.png") -17px -1px;
   margin-left: 2px;
-  
 }
-.facebook-link1{
+.facebook-link1 {
   margin-left: 8px;
 }
 .twitter {
   width: 15px;
   height: 17px;
-  background: url("https://images-na.ssl-images-amazon.com/images/G/01/x-locale/communities/social/snwicons_v2._CB485949224_.png") -35px 1px;
-  
+  background: url("https://images-na.ssl-images-amazon.com/images/G/01/x-locale/communities/social/snwicons_v2._CB485949224_.png") -35px
+    1px;
 }
-.twitter-link1{
+.twitter-link1 {
   margin-left: 8px;
 }
 .pinterest {
   width: 17px;
   height: 17px;
-  background: url("https://images-na.ssl-images-amazon.com/images/G/01/x-locale/communities/social/snwicons_v2._CB485949224_.png") -49px 0;
- 
+  background: url("https://images-na.ssl-images-amazon.com/images/G/01/x-locale/communities/social/snwicons_v2._CB485949224_.png") -49px
+    0;
 }
-.pinterest-link1{
+.pinterest-link1 {
   margin-left: 8px;
 }
-.purchese-description{
+.purchese-description {
   width: 242px;
-  height: 629.91px;
+  
   padding: 14px 18px;
   font-size: 14px;
   font-family: var(--font-fm-lt);
   font-weight: 700;
-  
- 
-
+  line-height: 1.7rem;
+  border: 1px #D5D9D9 solid;
+  border-radius: 10px;
 }
-.grayesh-color{
-   color: #565959;
+.grayesh-color {
+  color: #565959;
 }
 
-.bolded{
+.bolded {
   color: black;
 }
 
-.descount-price-num-purchese{
+.descount-price-num-purchese {
   margin-bottom: 17px;
+
 }
-.first-p{
- margin-bottom: 22px;
- 
+.first-p {
+  margin-bottom: 22px;
 }
-.second-p{
+.second-p {
   margin-bottom: 24px;
 }
-.location-2{
-  display:flex;
+.location-2 {
+  display: flex;
 }
 
-.location-2-icone{
+.location-2-icone {
   width: 16px;
   height: 14px;
   background: url("https://m.media-amazon.com/images/S/sash/kIT-Lj9i1Bch8yi.png")
-    no-repeat ;
+    no-repeat;
+  margin-bottom: 11px;
 }
-.location-2-text{
+
+.in-stock {
+  font-size: 18px;
+  color: #007600;
+}
+.num-of-item-select {
+  width: 62.72px;
+  height: 22px;
+  background: #f0f2f2;
+  border-radius: 8px;
+}
+.num-of-item-select:focus {
+  outline: none;
+}
+.select-wrapper {
+  margin-top: 18px;
+}
+
+.add-to-cart-and-buy-btn {
+  width: 100%;
+  height: 31px;
+  border-radius: 45px;
+  border: none;
+}
+#add-to-cart-btn {
+  background: #ffd814;
+  margin-top: 10px;
+}
+#add-to-cart-btn:hover {
+  background: #f7ca00;
+  cursor: pointer;
+}
+#buy-now-btn {
+  background: #ffa41c;
+  margin-top: 8px;
+}
+#buy-now-btn:hover {
+  background: #fa8900;
+  cursor: pointer;
+}
+.security-announcement {
+  display: flex;
+  margin-top: 17px;
+  margin-bottom: 18px;
+}
+.security-announcement:hover {
+  cursor: pointer;
+}
+
+.security-icone {
+  width: 11.42px;
+  height: 15px;
+  background: url("https://images-na.ssl-images-amazon.com/images/G/01/x-locale/checkout/truespc/secured-ssl._CB485936932_.png")
+    no-repeat center center/cover;
+  margin-right: 14px;
+}
+.return-policy {
+  margin-top: 18px;
+}
+
+.buy-add-to-cart-light-border {
+  margin-top: 13px;
+  opacity: 0.6;
+  margin-bottom: 12px;
+}
+
+.add-to-list-btn{
+  width: 100%;
+  height: 31px;
+  border: 0.5px gray solid ;
+  background: #EEEFF2;
+  text-align: left;
+  padding:0px 18px;
+  cursor: pointer;
 
 }
+.new-3-from-container{
+  height: 48px;
+  width: 242px;
+  border: 1px #D5D9D9 solid;
+  border-radius: 10px;
+  margin-top: 24px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 19px ;
+  padding-right: 11px;
+  font-family: var(--font-fm-lt);
+  font-weight:800;
+}
+.new-3-from-container .price{
+  color: #922501;
+  
+}
+.new-3-from-container:hover {
+  cursor: pointer;
+}
+.new-3-arrow{
+  width: 11px;
+  height: 15px;
+  background: url(../img/McBZv0ZvnbehkIx.png) no-repeat -379px -600px;
+}
+
