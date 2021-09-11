@@ -1117,6 +1117,7 @@ z-index: 5;
   top: -50px;
   height: 292px;
   border-bottom: solid 1px #D5D9D9 ;
+  
 }
 .extra-items{
   
@@ -1200,4 +1201,169 @@ z-index: 5;
 .add-to-cart-with-extra:hover {
   background: #f7ca00;
   
+}
+/* Prand Related */
+.brand-related  a{
+  color: var(--description-link-color);
+}
+.brand-related{
+  position: relative;
+  top: -35px;
+  font-size: 14px;
+  margin: 0px 0px 25px;
+  font-family: var(--font-fm-lt);
+font-weight: 700;
+border-bottom: 1px solid #D5D9D9;
+padding-bottom: 27px;
+}
+.brand-related-h2{
+  margin-bottom: 12px;
+   color: #CC6600;
+  font-family: var(--font-fm);
+  font-weight: 400;
+}
+.brand-related-sponsored{
+  margin-bottom: 18px ;
+}
+.brands{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.brand-box{
+  width: 593.5px;
+  height: 173;
+  border: 1px solid #D5D9D9;
+}
+.brand-btn{
+  width: 36px;
+  height: 39px;
+}
+.brand-box-1{
+display: flex;
+
+}
+.brand-description{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  
+}
+.brand-description p{
+  font-size: 15px;
+  margin-bottom: 13px;
+}
+.brand-1-img-container{
+  width: 175px;
+  height: 173px;
+  display: flex;
+  align-items: center;
+}
+.brand-1-img{
+  width: 139px;
+  height: 84px;
+  margin: 0 19px 0 19px;
+background: url('https://m.media-amazon.com/images/I/81-LiKgErML._AC_SL139_QL70_.jpg') no-repeat center center/cover;
+}
+.brand-box-2{
+  display: flex;
+  align-items: center;
+  
+}
+.brand-box-2 p{
+  font-size: 15px;
+  margin-bottom: 15px;
+}
+.brand-2-img{
+  width: 139px;
+  height: 139px;
+  margin: 0 19px 0 19px;
+  background: url('https://m.media-amazon.com/images/I/81YjOihTrdL._AC_SL139_QL70_.jpg') no-repeat center center/cover;
+  
+  
+}
+.brand-2-logo{
+  width: 80px;
+  height: 28px;
+  margin: 0 0 10px;
+  background: url('https://images-na.ssl-images-amazon.com/images/S/al-na-9d5791cf-3faf/8307a745-db33-4f7a-b060-685f998f95df._CR0,0,800,400_AC_SX80_SY40_QL70_.jpg') no-repeat center center/cover;
+  
+}
+.brand-btn-left{
+  opacity: 0.5;
+}
+.brand-btn
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.brand-btn-text-left{
+  width: 11px;
+  height: 15px;
+  margin: 0 0 0px;
+  background: url(../img/McBZv0ZvnbehkIx.png) no-repeat -124px -8px;
+  
+}
+.brand-btn-text-right{
+  width: 11px;
+  height: 15px;
+  
+  background: url(../img/McBZv0ZvnbehkIx.png) no-repeat -107px -8px;
+  
+}
+
+
+/* Brand Related */
+.products-related-container  a{
+  color: var(--description-link-color);
+}
+.products-related-container  a:hover{
+  text-decoration: underline;
+}
+.products-related-container{
+  position: relative;
+  top: -50px;
+  font-family: var(--font-fm-lt);
+font-weight: 700;
+}
+.products-related-heading{
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+.products-related-box{
+  width: 160px;
+  height: 284px;
+  font-size: 14px;
+  font-family: var(--font-fm-lt);
+  margin: 0 0 0 15px;
+
+}
+.products-related-img{
+  width: 160px;
+  height: 160px;
+}
+.products-related-img-1{
+  background: url('https://m.media-amazon.com/images/I/51uTcjQW7wL._AC_SR160,160_.jpg')no-repeat center center/cover;
+}
+.products-related-img-2{
+  background: url('https://m.media-amazon.com/images/I/51rvTOVC1oL._AC_SR160,160_.jpg')no-repeat center center/cover;
+}
+.products-related-img-3{
+  background: url('https://m.media-amazon.com/images/I/515LIzTkg1S._AC_SR160,160_.jpg')no-repeat center center/cover;
+}
+.products-related-img-4{
+  background: url('https://m.media-amazon.com/images/I/41rsvlXmJmS._AC_SR160,160_.jpg')no-repeat center center/cover;
+}
+.products-related-img-5{
+  background: url('https://m.media-amazon.com/images/I/51vpyN77SiS._AC_SR160,160_.jpg')no-repeat center center/cover;
+}
+.products-related-img-6{
+  background: url('https://m.media-amazon.com/images/I/5199DLd2r5S._AC_SR160,160_.jpg')no-repeat center center/cover;
+}
+.products-related-img-7{
+  background: url('https://m.media-amazon.com/images/I/41qzimyg0wL._AC_SR160,160_.jpg')no-repeat center center/cover;
 }
