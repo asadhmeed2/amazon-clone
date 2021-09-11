@@ -476,7 +476,7 @@ ul {
 }
 
 .prodact-info {
-  height: 165vh;
+  height: 1033px;
   justify-content: center;
   display: grid;
   grid-template-columns: 6fr 3fr;
@@ -1048,7 +1048,7 @@ ul {
 .sponsored{
  width: 244px;
  height: 251px;
- padding: 20px;
+ padding: 14px;
  border: #D5D9D9 0.5px solid;
  border-radius: 5px;
  position: relative;
@@ -1101,4 +1101,103 @@ z-index: 5;
 .sponsored-footer span{
   margin-right: 15px;
   font-family: var(--font-fm-lt);
+}
+
+.extra-items-h2{
+  position: relative;
+  top: -55px;
+  color: #CC6600;
+  font-family: var(--font-fm);
+  font-weight: 400;
+}
+.extra-items-container{
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  top: -50px;
+  height: 292px;
+  border-bottom: solid 1px #D5D9D9 ;
+}
+.extra-items{
+  
+  display: flex;
+}
+.extra-items-container label a{
+  color: var(--description-link-color);
+}
+
+.and{
+  font-weight: 400;
+  line-height: 32px;
+  color: #565959;
+  font-size: 24px;
+  align-self:center;
+  
+}
+.extra-items-image{
+  width: 116px;
+  height: 116px;
+  margin: 0px 10px;
+  margin-bottom: 15px;
+
+}
+.img1{
+  background: url('https://images-na.ssl-images-amazon.com/images/I/71KYDouQCEL._AC_UL116_SR116,116_.jpg')no-repeat center center/cover;
+}
+.img2{
+  background: url('https://images-na.ssl-images-amazon.com/images/I/61aOUy3kPNL._AC_UL116_SR116,116_.jpg')no-repeat center center/cover;
+}
+.img3{
+  background: url('https://images-na.ssl-images-amazon.com/images/I/91lpepAk8oL._AC_UL116_SR116,116_.jpg')no-repeat center center/cover;
+}
+.extra-items-worning{
+  display: flex;
+  align-items: center;
+  margin-bottom: 14px;
+}
+.worning-p{
+  margin-left: 8px;
+}
+.extra-worning-sign{
+  width: 18px;
+  height: 18px;
+  background: url(../img/3-fm1Jbg4IHlyhq.png)no-repeat -412px -29px;
+  margin-left: 13px;
+}
+.extra-item{
+  
+  margin-bottom: 11px;
+  font-family: var(--font-fm-lt);
+  font-weight: 700;
+  margin-left: 15px;
+  font-size: 14px;
+}
+.extra-item label{
+  margin-left: 8px;
+}
+.price {
+  color: #b83104;
+}
+.extra-item-bolded{
+  font-family: var(--font-fm);
+}
+.add-all-container{
+  font-family: var(--font-fm-lt);
+  line-height: 1.9rem;
+  font-weight: 700;
+}
+.add-to-cart-with-extra{
+  width: 116.56px;
+  height: 22px;
+  border: none;
+  background: #ffd814;
+  cursor: pointer;
+  border-radius: 8px;
+  font-family: var(--font-fm-lt);
+  font-size: 11px;
+  font-weight: 700;
+}
+.add-to-cart-with-extra:hover {
+  background: #f7ca00;
+  
 }
